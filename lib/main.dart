@@ -114,10 +114,11 @@ class _MainScreenState extends State<MainScreen> {
                 height: 2,
                 color: Colors.deepPurple,
               ),
+              isExpanded: true,
             ),
             const SizedBox(height: 20),
-            Text('Activity: $activity', style: const TextStyle(fontSize: 18)),
-            Text('Price: $price', style: const TextStyle(fontSize: 18)),
+            Text('Activity: $activity', style: const TextStyle(fontSize: 16)),
+            Text('Price: $price', style: const TextStyle(fontSize: 16)),
             const SizedBox(height: 20),
             ElevatedButton(
               onPressed: _fetchActivity,
